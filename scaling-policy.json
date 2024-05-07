@@ -1,0 +1,11 @@
+{
+  "TargetValue": 20.0,
+  "CustomizedMetricSpecification": {
+    "Namespace": "ecs",
+    "MetricName": "RequestByTaskGreaterThan20",
+    "Statistic": "Sum",
+    "Unit": "Count"
+  },
+  "ScaleOutCooldown": 300,
+  "ScaleInCooldown": 60
+}
